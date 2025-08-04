@@ -3,6 +3,7 @@ const allowedOrigins = [
   process.env.CLIENT_URL_2,
   process.env.CLIENT_URL_3,
   process.env.CLIENT_URL_4,
+  process.env.CLIENT_URL_5,
   "http://localhost:5173",
 ];
 
@@ -22,3 +23,4 @@ const secureAccess = (req, res, next) => {
 };
 
 export default secureAccess;
+
