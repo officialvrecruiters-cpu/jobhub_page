@@ -11,7 +11,7 @@ app.use(
       process.env.CLIENT_URL_2,
       process.env.CLIENT_URL_3,
       process.env.CLIENT_URL_4,
-      "https://employer-dashboard-jobhub-z56k.vercel.app",
+      process.env.CLIENT_URL_5,
       "http://localhost:5173",
     ],
     credentials: true,
@@ -43,5 +43,6 @@ app.use("/api/v1/jobs", jobRoute);
 app.use("/api/candidates", registeredcandidates);
 
 export { app };
+
 
 
